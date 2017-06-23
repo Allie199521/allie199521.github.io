@@ -7,7 +7,7 @@ body {
 }
 
 div#centeredElement{
-	background-color: gray;
+	background-image: url("banner_temp.png");
 	text-align:left;
 	margin: 0 auto;
 	font-size: 50px;
