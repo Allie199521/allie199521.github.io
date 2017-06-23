@@ -4,4 +4,6 @@
 
 body {
 	background-color: rgba(60, 148, 255, .8);
+	margin: 0 auto;
+	max-width: 50em;
 }
