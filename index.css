@@ -11,6 +11,6 @@ div#centeredElement{
 	margin: 0 auto;
 	font-size: 50px;
 	width: 300px;
-    border: 25px solid green;
+    border: 10px solid green;
     padding: 25px;
 }
