@@ -7,11 +7,13 @@ body {
 }
 
 div#centeredElement{
-	text-align:center;
+	text-align:left;
 	margin: 0 auto;
 	font-size: 50px;
-	width: 800px;
-    border: 10px solid green;
+	width: 90%;
+    border: 5px solid green;
 	padding-top: 60px;
-    padding: 25px;
+	padding-right: 25px;
+	padding-left:25px;
+	padding-bottom: 0px;
 }
