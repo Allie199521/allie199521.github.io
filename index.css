@@ -1,15 +1,16 @@
 *{
 	font-family: 'Special Elite', cursive;
-	margin: 0 auto;
-	max-width: 50em;
 }
 
 body {
 	background-color: rgba(60, 148, 255, .8);
-	margin: 0 auto;
-	max-width: 50em;
 }
 
 div#centeredElement{
 	text-align:center;
+	margin: 0 auto;
+	font-size: 50px;
+	width: 300px;
+    border: 25px solid green;
+    padding: 25px;
 }
