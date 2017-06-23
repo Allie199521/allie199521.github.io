@@ -10,7 +10,8 @@ div#centeredElement{
 	text-align:center;
 	margin: 0 auto;
 	font-size: 50px;
-	width: 300px;
+	width: 800px;
     border: 10px solid green;
+	padding-top: 60px;
     padding: 25px;
 }
