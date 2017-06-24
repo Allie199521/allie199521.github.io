@@ -3,8 +3,9 @@
 }
 
 body {
-	background-image: url("banner_temp.png");
-	background-repeat: no-repeat;
+	background-color: #5baec7;
+	background-image: url("diagmonds-light.png");
+	background-repeat: repeat;
     background-attachment: fixed;
 	text-align:left;
 	margin: 0 auto;
