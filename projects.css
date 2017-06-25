@@ -3,8 +3,9 @@
 }
 
 body {
-	background-image: url("banner_temp.png");
-	background-repeat: no-repeat;
+	background-color: #3dd0db;
+	background-image: url("diagmonds-light.png");
+	background-repeat: repeat;
     background-attachment: fixed;
 	text-align:left;
 	margin: 0 auto;
@@ -14,7 +15,11 @@ ul {
 	list-style-type:none;
 	margin: 0;
     padding: 0;
-	width: 100px;
+}
+
+li {
+	display: inline;
+	padding-right: 10px;
 }
 
 li a {
