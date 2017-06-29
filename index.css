@@ -4,7 +4,7 @@
 
 body {
 	background-color: #3dd0db;
-	background-image: url("diagmonds-light.png");
+	background-image: url("/images/diagmonds-light.png");
 	background-repeat: repeat;
     background-attachment: fixed;
 	text-align:left;
