@@ -3,7 +3,7 @@
 }
 
 body {
-	background-color: rgba(78, 109, 156, .2);
+	background-color: rgba(78, 109, 156, .45);
 	background-image: url("/images/diagmonds-light.png");
 	background-repeat: repeat;
     background-attachment: fixed;
