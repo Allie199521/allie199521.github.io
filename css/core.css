@@ -1,8 +1,0 @@
-/*core.css
-  author: alexandra miranda
-  github: allie199521
-  */
-@import url("screen.css");
-@import url("antiscreen.css") handheld;
-@import url("antiscreen.css") only screen and
-(max-device-width:480px);
