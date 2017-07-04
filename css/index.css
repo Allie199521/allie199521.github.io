@@ -38,11 +38,13 @@ li a {
 	text-align: center;
 	vertical-align: center;
 	padding-top: 25%;
+	margin-bottom: 25%;
+	background-image: url("images/test.png");
 }
 
 #test {
-	margin-top: 25%;
 	text-align: center;
+	margin: 25%;
 }
 
 .container {
