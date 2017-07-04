@@ -15,3 +15,20 @@
 	background-color: #efefef;
 	text-align: center;
 }
+
+ul {
+	list-style-type:none;
+	margin: 10px;
+    padding: 10px;
+}
+
+li {
+	display: inline;
+	padding-right: 10px;
+}
+
+li a {
+	text-decoration:none;
+	font-weight: bold;
+	color: black;
+}
