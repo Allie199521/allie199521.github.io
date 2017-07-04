@@ -42,7 +42,8 @@ li a {
 }
 
 #test {
-	margin-top: 50%;
+	margin-top: 25%;
+	text-align: center;
 }
 
 .container {
@@ -50,14 +51,14 @@ li a {
 }
 
 .topleft {
-    position: absolute;
+    position: fixed;
     top: 16px;
     left: 16px;
 	z-index: 4;
 }
 
 .topright {
-    position: absolute;
+    position: fixed;
 	text-align: right;
     top: 8px;
     right: 8px;
