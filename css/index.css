@@ -8,6 +8,7 @@
 }
 
 body {
+	z-index: 1;
 	background-color: rgba(78, 109, 156, .50);
 	background-image: url("../images/diagmonds-light.png");
 	background-repeat: repeat;
@@ -35,11 +36,12 @@ li a {
 }
 
 .about {
+	background-image: url("images/test.png");
 	text-align: center;
 	vertical-align: center;
 	padding-top: 25%;
 	margin-bottom: 25%;
-	background-image: url("images/test.png");
+	z-index: 2;
 }
 
 #test {
