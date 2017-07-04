@@ -17,8 +17,10 @@ body {
 
 ul {
 	list-style-type:none;
-	margin: 5%;
-    padding: 5%;
+	margin: 2%;
+    padding-top: 20px;
+	padding-bottom:20px;
+	background-color: black;
 }
 
 li {
@@ -32,6 +34,17 @@ li a {
 	color: rgba(128, 128, 128, 1);
 }
 
+.about {
+	text-align: center;
+	vertical-align: center;
+	z-index: 2;
+	padding-top: 25%;
+}
+
+#test {
+	margin-top: 50%;
+}
+
 .container {
     position: relative;
 }
@@ -40,11 +53,15 @@ li a {
     position: absolute;
     top: 16px;
     left: 16px;
+	z-index: 4;
 }
 
 .topright {
     position: absolute;
+	text-align: right;
     top: 8px;
     right: 8px;
     font-size: 18px;
+	width: 90%;
+	z-index: 3;
 }
