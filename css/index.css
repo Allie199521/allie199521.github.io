@@ -44,18 +44,15 @@ a {
 }
 
 .about {
-	background-image: url("images/test.png");
 	text-align: center;
-	vertical-align: center;
 	padding-top: 25%;
-	margin-bottom: 25%;
-	z-index: 2;
+	padding-bottom: 25%;
 }
 
 #projectspage {
 	text-align: center;
-	margin-top: 25%;
-	margin-bottom: 25%;
+	margin-top: 12.5%;
+	margin-bottom: 12.5%;
 	margin-left: 10%;
 	margin-right: 10%;
 	padding:10%;
@@ -64,8 +61,10 @@ a {
 
 #resumepage {
 	text-align: center;
-	margin: 10%;
-	margin-bottom: 2%;
+	margin-top: none;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: none;
 	padding:15%;
 	border: 5px solid black;
 }
@@ -84,9 +83,9 @@ a {
 
 .topright {
     position: fixed;
+	margin-top: 1%;
 	text-align: right;
     right: 1%;
-    font-size: 18px;
 	width: 90%;
 	z-index: 3;
 }
