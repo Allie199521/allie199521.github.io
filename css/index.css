@@ -46,9 +46,12 @@ li a {
 	z-index: 2;
 }
 
-#test {
+#projectspage {
 	text-align: center;
-	margin: 25%;
+	margin: 10%;
+	margin-bottom: 2%;
+	padding:15%;
+	border: 5px solid black;
 }
 
 .container {
@@ -57,16 +60,15 @@ li a {
 
 .topleft {
     position: fixed;
-    top: 16px;
-    left: 16px;
+    top: 1%;
+    left: 1%;
 	z-index: 4;
 }
 
 .topright {
     position: fixed;
 	text-align: right;
-    top: 8px;
-    right: 8px;
+    right: 1%;
     font-size: 18px;
 	width: 90%;
 	z-index: 3;
