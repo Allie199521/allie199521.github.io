@@ -37,26 +37,6 @@ li a {
 	color: rgba(128, 128, 128, 1);
 }
 
-.container {
-    position: relative;
-}
-
-.topleft {
-    position: fixed;
-    top: 1%;
-    left: 1%;
-	z-index: 4;
-}
-
-.topright {
-    position: fixed;
-	margin-top: 1%;
-	text-align: right;
-    right: 1%;
-	width: 90%;
-	z-index: 3;
-}
-
 a {
 	text-decoration:none;
 	color:black;
@@ -76,18 +56,35 @@ a {
 	border: 5px solid black;
 }
 
-#blogpage {
+#resumepage {
 	text-align: center;
-	margin:7%;
-	padding:10%;
+	margin-top: none;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: none;
+	padding:15%;
 	border: 5px solid black;
 }
 
-#resumepage {
-	text-align: center;
-	margin: 10%;
-	padding: 15%;
-	border: 5px solid black;
+
+.container {
+    position: relative;
+}
+
+.topleft {
+    position: fixed;
+    top: 1%;
+    left: 1%;
+	z-index: 4;
+}
+
+.topright {
+    position: fixed;
+	margin-top: 1%;
+	text-align: right;
+    right: 1%;
+	width: 90%;
+	z-index: 3;
 }
 
 #myBtn {
