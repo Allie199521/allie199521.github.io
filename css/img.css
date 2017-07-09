@@ -29,15 +29,6 @@
 	padding-bottom: 5%;
 }
 
-#photos a {
-	text-decoration: underline;
-}
-
-#photos p {
-	font-size: 18px;
-	text-align: center;
-}
-
 @media (max-width: 1200px) {
   #photos {
   -moz-column-count:    4;
@@ -60,9 +51,18 @@
   }
 }
 @media (max-width: 400px) {
-  #photos {
-  -moz-column-count:    1;
-  -webkit-column-count: 1;
-  column-count:         1;
-  }
+	#photos {
+		-moz-column-count:    1;
+		-webkit-column-count: 1;
+		column-count:         1;
+	}
+}
+
+#photos a {
+	text-decoration: underline;
+}
+
+#photos p {
+	font-size: 18px;
+	text-align: center;
 }
