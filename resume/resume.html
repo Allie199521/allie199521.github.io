@@ -9,21 +9,11 @@
 	</head>
 	
 	<body>
-		<div class="container">
-			<div class="topleft">
-				<img src="../images/Logo.png" style="width:156px; height:156px;">
-			</div>
-			<div class="topright">
-				<ul>
-					<li><a href="../index.html">Home</a></li>
-					<li><a href="../projects/projects.html">Projects</a></li>
-					<li><a href="resume.html">Resume</a></li>
-					<li><a href="../blog/blog.html">Blog</a></li>
-					<li><a href="../contact/contact.html">Contact</a></li>
-				</ul>
-			</div>
-		</div>
-		
+		<script src="https://www.w3schools.com/lib/w3.js"></script>
+		<div w3-include-html="../auxilary/header.html"></div>
+		<script>
+			w3.includeHTML();
+		</script>
 		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 		<script>
 			// When the user scrolls down 20px from the top of the document, show the button
