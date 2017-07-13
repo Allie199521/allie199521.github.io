@@ -2,10 +2,6 @@
   author: alexandra miranda
   github: allie199521
   */
-  
-*{
-	font-family: 'Special Elite', cursive;
-}
 
 body {
 	z-index: 1;
@@ -14,4 +10,5 @@ body {
 	background-repeat: repeat;
 	background-size: 75px 75px;
 	margin: 0 auto;
+	font-family: 'Special Elite', cursive;
 }
