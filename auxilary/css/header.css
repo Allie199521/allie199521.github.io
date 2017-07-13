@@ -4,7 +4,7 @@ ul {
 	margin-top: none;
     padding-top: 20px;
 	padding-bottom:20px;
-	background-color: #7aa8c1;
+	background-color: rgba(122, 168, 193, .5);
 }
 
 li {
