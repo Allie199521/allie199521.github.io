@@ -10,20 +10,11 @@
 	</head>
 	
 	<body>
-		<div class="header">
-			<ul>
-				<li><a href="blog.html">Home</a></li>
-				<li><a href="writerslife/writerslife.html">Writer's Life</a></li>
-				<li><a href="computerscience/computerscience.html">Computer Science</a></li>
-			</ul>
-		</div>
-		<div class="footer">
-			<p>
-			Author: Alexandra E Miranda<br>
-			Website: <a href="https://allie199521.github.io">Alexandra Miranda<a>
-			Twitter: <a href="https://twitter.com/mirandae197">@mirandae197<a>
-			Instagram: <a href="https://www.instagram.com/allie199521/?hl=en">@allie199521<a>
-			</p>
-		</div>
+		<script src="https://www.w3schools.com/lib/w3.js"></script>
+		<div w3-include-html="auxilary/header.html"></div>
+		<div w3-include-html="auxilary/footer.html"></div>
+		<script>
+			w3.includeHTML();
+		</script>
 	</body>
 </html>
